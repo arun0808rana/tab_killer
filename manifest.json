@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "version": "1.0",
+  "description": "Close tabs to the right or left using hotkeys.",
+  "permissions": [
+    "tabs",
+    "commands"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "closeTabsRight": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Right"
+      },
+      "description": "Close all tabs to the right"
+    },
+    "closeTabsLeft": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Left"
+      },
+      "description": "Close all tabs to the left"
+    }
+  }
+}
