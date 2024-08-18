@@ -1,6 +1,6 @@
 # Why?
 
-Because chrome doesn't have hotkeys for killing tabs!
+Because chrome doesn't have hotkeys for killing tabs. And installing an extension that does this also does a `lot` and I only wanted the killing feature.
 
 ## Installation
 
