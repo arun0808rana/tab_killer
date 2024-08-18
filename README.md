@@ -2,6 +2,12 @@
 
 Because chrome doesn't have hotkeys for killing tabs!
 
+## Installation
+
+1. Clone the repo
+2. Goto `Extension` menu in chrome and enable `Developer Mode`
+3. Click on `Load unpackaged` and select the cloned folder
+
 ## Hotkeys
 
 1. kills tabs to the right of the current tab using `ctrl+shift+right_arrow`
